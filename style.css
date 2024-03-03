@@ -1,0 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+}
+/*Следующая строка — выделение столбцов*/
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+th, td {
+	padding: 10px;
+}
+th {
+	color: #fff705;
+	background: #1e25eb;
+}
+td {
+	background: #e5e5e5;
+}
