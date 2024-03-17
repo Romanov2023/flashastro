@@ -28,7 +28,7 @@ $starclusters = mysqli_query($connect, "SELECT * FROM rzs");
       <th>Расстояние</th>
     </tr>
     <?php while ($row = mysqli_fetch_assoc($starclusters)) { ?>
-      <tr>
+      <tr class="tc">
         <td><?php echo $row['name']; ?></td>
         <td><?php echo $row['id_sozvezdie']; ?></td>
         <td><?php echo $row['zv_vel']; ?></td>

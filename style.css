@@ -8,7 +8,7 @@ body {
 	
 }
 /*Следующая строка — выделение столбцов*/
-tr:nth-child(odd) {
+.tc:nth-child(even) {
   background-color: lightgray;
 }
 
@@ -19,6 +19,7 @@ th {
 	color: #fff705;
 	background: #1e25eb;
 }
-td {
+/*td {
 	background: #e5e5e5;
 }
+*/
